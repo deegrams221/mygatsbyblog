@@ -1,53 +1,54 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
-import { rhythm } from "../utils/typography"
-import Layout from "../components/layout"
+import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
+import React from "react"
+import Layout from "../components/layout"
+import { rhythm } from "../utils/typography"
 
 export default ({ data }) => {
   console.log(data)
   return (
     <Layout>
       <div>
-      <Img
-        className="data"
-        fixed={data.file.childImageSharp.fixed}
-        alt="Photo of Diana Grams"
-        /><br></br>
+        <Img
+          className="data"
+          fixed={data.file.childImageSharp.fixed}
+          alt="Photo of Diana Grams"
+        />
+        <br></br>
         <h1
           css={css`
             display: inline-block;
             border-bottom: 1px solid;
           `}
         >
-          Diana Grams' Gatsby Blog
+          Diana Grams' Blog
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-              <Link
+            <Link
               to={node.fields.slug}
               css={css`
                 text-decoration: none;
                 color: inherit;
               `}
             >
-            <h3
-              css={css`
-                margin-bottom: ${rhythm(1 / 4)};
-              `}
-            >
-              {node.frontmatter.title}{" "}
-              <span
+              <h3
                 css={css`
-                  color: #bbb;
+                  margin-bottom: ${rhythm(1 / 4)};
                 `}
               >
-                — {node.frontmatter.date}
-              </span>
-            </h3>
-            <p>{node.excerpt}</p>
+                {node.frontmatter.title}{" "}
+                <span
+                  css={css`
+                    color: #bbb;
+                  `}
+                >
+                  — {node.frontmatter.date}
+                </span>
+              </h3>
+              <p>{node.excerpt}</p>
             </Link>
           </div>
         ))}
@@ -58,14 +59,14 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "data/icon.jpg" }) {
+    file(relativePath: { eq: "data/zoom.png" }) {
       childImageSharp {
         fixed(width: 80, height: 80) {
           ...GatsbyImageSharpFixed
         }
       }
-    },
-    allMarkdownRemark(filter: {frontmatter: {date: {}}}) {
+    }
+    allMarkdownRemark(filter: { frontmatter: { date: {} } }) {
       totalCount
       edges {
         node {
