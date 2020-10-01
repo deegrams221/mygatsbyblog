@@ -1,3 +1,4 @@
+import { css } from "@emotion/core"
 import { graphql } from "gatsby"
 import React from "react"
 import Layout from "../components/layout"
@@ -21,6 +22,45 @@ export default ({ data }) => (
       this blog togther. I also played a bit with iframe, which you will be able
       to see in my first blog post entitled "Blogging".
     </p>
+    <div
+      css={css`
+        display: flex;
+        justify-content: space-between;
+        font-style: normal;
+      `}
+    >
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://dianagrams.dev/"
+      >
+        Portfolio
+      </a>
+
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.linkedin.com/in/diana-grams/"
+      >
+        LinkedIn
+      </a>
+
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/deegrams221/"
+      >
+        GitHub
+      </a>
+
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://twitter.com/deegrams221"
+      >
+        Twitter
+      </a>
+    </div>
   </Layout>
 )
 
