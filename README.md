@@ -1,16 +1,35 @@
+# Diana Grams' Portfolio
+
+Find the deployed project at https://diana-grams.com
+
+[GitHub](https://github.com/deegrams221) |
+[LinkedIn](https://www.linkedin.com/in/diana-grams/) |
+[Portfolio](https://dianagrams.dev/)
+
+---
+
+## Project Overview
+
+![React](https://img.shields.io/badge/react-v16.13.1-blue.svg)
+[![code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
+![netlify](https://img.shields.io/netlify/5c783fbf-5b8a-413e-b810-839086f2a768)
+
+This blog was created as part of the #100DaysOfGatsby Challenge on Twitter. Creating a Gatsby blog from scratch was challenge 1.
+
+I will be updating this blog and adding new content as I create new
+projects!
+
+### Technology Used:
+
+Gatsby | React.js | CSS | HTML <br> <br> The photos are either taken personally by me or found on
+unsplash. <br> <br> Deployed using `Netlify`
+
+### Key Features
+
+- Routing
+- My personal blog posts
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's hello-world starter
-</h1>
-
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
 ## 🚀 Quick start
 
@@ -89,9 +108,5 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
