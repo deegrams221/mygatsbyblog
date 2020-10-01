@@ -17,10 +17,7 @@ export default ({ data }) => (
     </p>
     <p>
       This blog was created as part of the #100DaysOfGatsby Challenge on
-      Twitter. Creating a Gatsby blog from scratch was challenge 1. Over the
-      last week, I have gone through all Gatsby's introduction tutorials and put
-      this blog togther. I also played a bit with iframe, which you will be able
-      to see in my first blog post entitled "Blogging".
+      Twitter. Creating a Gatsby blog from scratch was challenge 1.
     </p>
     <div
       css={css`
