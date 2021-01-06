@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.27",
-    "gatsby": "^2.18.12",
+    "axios": "^0.21.1",
+    "gatsby": "^2.30.0",
     "gatsby-image": "^2.2.37",
     "gatsby-plugin-emotion": "^4.1.18",
     "gatsby-plugin-sharp": "^2.6.37",
