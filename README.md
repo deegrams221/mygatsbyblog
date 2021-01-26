@@ -1,4 +1,4 @@
-# Diana Grams' Portfolio
+# Diana Grams' Personal Blog
 
 Find the deployed project at https://diana-grams.com
 
