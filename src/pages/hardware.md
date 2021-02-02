@@ -100,3 +100,105 @@ HDD - Hard Disk Drive or Hard Drive
 - Non-volatile memory used in computers and other electronic devices
 - Data stored in ROM cannot be electronically modified after the manufacture of the memory device
 - Some examples include: Barcodes, QR Codes, Punchcard, papertape, CDs, DVDs, Laser Disks, Optical Disk, DNA (emerging)
+
+## Graphics Card
+
+- Graphics cards are hardware dedicated to the output of graphics
+- On the graphics card, there is a special processor designed for graphics called a Graphics Processing Unit (GPU) and a very fast RAM
+- Integrated Graphics = If a mobo has a video connector, such as a VGA or HDMI, then the mobo may have an onboard video output
+- Graphics cards are specified by PCIe slot length, model, G-RAM and video outputs
+- Graphics cards produce a lot of heat, and usually are sold with multiple fans and big metal heat sinks, or radiators, to keep the part cool.
+
+### Models
+
+- AMD and nVidia are the main producers of graphics cards but they are often rebranded by the various big PC hardware companies
+- There is a small selection of graphics cards for gaming, workstation graphics, ect, so most people refer to graphics cards by the model, series and number (for example: GTX 1080)
+
+### RAM / G-RAM
+
+- RAM in graphics cards is specially designed and configured for the high speed needs of graphics
+- RAM is usually described here as GDDR RAM, and GDDR5 is the standard
+
+### PCIe
+
+- Peripheral COmponent Interconnect Express (PCIe) slots = these are the expansion slots in the mobo that the graphics cards plug into
+- These slots have different lengths; the shortest PCIe slot is the 'x1' or 'Single-Lane', the current largest is the 'x16' or 'Sixteen-Lane'
+- PCIe slots 'x4' and 'x8' are common slot sizes
+- PCIe slots only have 1 clip at the end
+
+### Video Connector Types
+
+- The three most common connector types are: VGA, DVI, and HDMI
+
+## IO Devices
+
+### Input Output Devices
+
+- IO Devices are external hardware
+- Examples of input devices: mouse, keyboard, light pen, scanner, microphone, bar code reader -- these are devices that feed information to the computer
+- Examples of output devices: monitor, printer, speakers, headphones, electronic braille pads, actuators -- these are devices that recieve information from the computer
+- IO Devices are specified by the type of connector and whether they are an input or output device
+- IO Devices can also be specified by type of product
+
+### IO Connectors
+
+- IO Connectors are ports commonly fond on various computers, including: PS/2(mouse, keyboard), USB, Serial, VGA, Parallel, LAN (Ethernet), and Audio jacks (Line In, Line Out, Mic)
+
+## Power Supply (PSU)
+
+- Powers the mobo and all additional devices, such as hard drives, graphics card, and USB mouse
+- Laptops have an external power brick instead
+- PSUs are specified by thier Power Rating (max output power) in Watts (W)
+- Every devicde in a computer uses a certain amount of power in Watts
+- Add the power raitin of all devices in a computer + 20% (for insurance) to determine the power supply needed
+- PSUs come in 50W increments
+- PSU for an average desktop PC is 500W
+- PSU for an average gamers PC is 700W
+- PSUs also have '80 plus' ratings (Bronze, Silver, Gold, Platinum, Titanium) which refer to efficiency
+- Power savings = money savings!
+
+# Summary
+
+## What is hardware?
+
+- Hardware refers to physical parts, components, electronics, and mechanisms which combined form the physical computer
+- Hardware is described by its' features and specifications
+
+## Safe handling of hardware
+
+- Hardware can be damaged by Electro Static Discharge
+- When handling exposed hardware, used ESD protective devices like ESD wrist straps and grounded workbenches
+
+## What makes up a computer?
+
+### Motherboard (MoBo)
+
+- Foundation, Infrastructure
+
+### Central Processing Unit (CPU)
+
+- Engine or brain
+
+### Random Access Memory (RAM)
+
+- Shor term memory
+
+### Storage Drives
+
+- Long term memory
+
+### Read Only Memory (ROM)
+
+- Un-Editable long term meemory
+
+### Graphics Card (Video Card)
+
+- Produce video/graphics, CPUs aren't good at this
+
+### Input/Outpud Devices (I/O)
+
+- Used to interact with the computer, and allows the computer to provide information to the user
+
+### Power Supply Unit (PSU)
+
+- Powers all hardware and devices
