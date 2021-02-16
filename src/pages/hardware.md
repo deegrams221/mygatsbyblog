@@ -181,7 +181,7 @@ HDD - Hard Disk Drive or Hard Drive
 
 ### Random Access Memory (RAM)
 
-- Shor term memory
+- Short term memory
 
 ### Storage Drives
 
@@ -189,7 +189,7 @@ HDD - Hard Disk Drive or Hard Drive
 
 ### Read Only Memory (ROM)
 
-- Un-Editable long term meemory
+- Un-Editable long term memory
 
 ### Graphics Card (Video Card)
 
