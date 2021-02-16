@@ -5,7 +5,7 @@ date: "2021-01-11"
 
 # Learning About Hardware
 
-I'm currently taking a course through <img src='https://people.withyouwithme.com/wp-content/uploads/2020/04/70c8d9af-wide-blackgreen-01-5.png' alt='WithYouWithMe Logo' width='65'>, it's an IT Fundamentals course. This cousre is the first step on the path to becoming a Cybersecurity Analyst.
+I'm currently taking a course through <img src='https://people.withyouwithme.com/wp-content/uploads/2020/04/70c8d9af-wide-blackgreen-01-5.png' alt='WithYouWithMe Logo' width='65'>, it's an IT Fundamentals course. This cousre is an overview of; Hardware, Software, Operating Systems, and IT Horizon Topics.
 
 ## Some of the first terms I learned are:
 
